@@ -9,7 +9,7 @@ public:
 	explicit Vector(int);
 	Vector(const Vector&);
 	Vector &operator=(const Vector&);
-	~Vector(){delete object;}
+	~Vector(){delete []object;}
 	Vector(Vector&&);
 	Vector &operator=(Vector&&);
 	
